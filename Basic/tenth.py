@@ -1,20 +1,20 @@
 # main function
 # aaaaa?a
 
-def Add(a,b):
-    return a+b
+# def Add(a,b):
+#     return a+b
 
-def Sub(a,b):
-    return a-b
+# def Sub(a,b):
+#     return a-b
 
-def mul(a,b):
-    return a*b
+# def mul(a,b):
+#     return a*b
 
-def div(a,b):
-    if(b==0):
-        print('infinty')
-    else:
-        return a/b
+# def div(a,b):
+#     if(b==0):
+#         print('infinty')
+#     else:
+#         return a/b
     
 
 # def Clac():
@@ -83,6 +83,35 @@ def div(a,b):
 
 
 
-for x in range(1,100):
-    if(x%2!=0):
-        print('even',x)
+# for x in range(1,10):
+#     if(x%2!=0):
+#         print('odd',x)
+
+
+# NO Parameters NO return
+# def kya_kar_rha_hai_bhai():
+#     print("nikal yha se")
+
+
+
+# kya_kar_rha_hai_bhai()
+
+# Parameters with no return
+# def hii(name):
+#     print(f"Hellow, {name}!")
+
+# hii('mohit')
+
+# no Parameters with returns
+# def get_pi(): 
+#     return 3.14159
+
+# a=get_pi()
+# print(a)
+
+
+def add(a,b):
+    return a+b
+     
+
+print(add(87,653))
